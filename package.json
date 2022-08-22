@@ -1,6 +1,6 @@
 {
   "name": "expiryed",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple react component to timeout components.",
   "main": "src/index.jsx",
   "scripts": {
