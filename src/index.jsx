@@ -6,13 +6,13 @@ const Expiryed = props => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setVisible(false)
+      setVisible(false);
     }, props.delay);
 
     return () => clearTimeout(timer)
   }, [props.delay]);
 
-  return visible ? <div>{props.children}</div> : <div />
+  return visible ? <div>{props.children}</div> : <div />;
 };
 
 export default Expiryed;
