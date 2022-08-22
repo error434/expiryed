@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const expiryed = props => {
+const Expiryed = props => {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
@@ -15,4 +15,4 @@ const expiryed = props => {
   return visible ? <div>{props.children}</div> : <div />
 };
 
-export default expiryed;
+export default Expiryed;
